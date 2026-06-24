@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	int b;	
+	char c;
+	if (scanf("%d %d%c",&a, &b, &c) != 3 || c != '\n'){
+		printf("n/a");}
+	else {
+		printf("%d ", a + b);
+		printf("%d ",a - b);
+		printf("%d ",a * b);
+	if (b == 0){
+		printf("n/a");}
+	else {
+		printf("%d",a / b);}
+	}
+	return 0;
+
+}
