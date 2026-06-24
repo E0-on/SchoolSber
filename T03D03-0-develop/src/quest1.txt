@@ -1,0 +1,4 @@
+touch hello-1.c
+nano hello-1.c
+gcc -Wall -Werror -Wextra -std=c11 hello-1.c -o hello
+./hello
