@@ -1,0 +1,5 @@
+arysanit@ev-i3 src % touch named_hello-1.c
+arysanit@ev-i3 src % nano named_hello-1.c
+arysanit@ev-i3 src % gcc -Wall -Werror -Wextra -std=c11 named_hello-1.c -o named_hello
+arysanit@ev-i3 src % ./named_hello
+
